@@ -1,0 +1,15 @@
+.add-option {
+    display: flex;
+    justify-content: space-between;
+    padding: $s-size;
+
+    input {
+        flex-grow: 1;
+        background: $blue;
+        color: $off-white;
+        border: none;
+        padding: $s-size;
+        border-bottom: 0.3rem solid darken($blue, 10%);
+        margin-right: 1rem;
+    }
+}
